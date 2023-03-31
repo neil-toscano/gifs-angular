@@ -1,0 +1,20 @@
+<div class=" bg-dark p-3   " id="sidebar">
+    <div class="text-light animate__animated animate__rubberBand">
+      Gifs-App 
+
+    </div>
+    <hr class="text-white">
+    
+    <div class="list-group list-reset">
+<a 
+href="#" 
+(click)="buscar(item)"
+class="list-group-item animate__animated animate__bounceInDown" 
+*ngFor="let item of historial"
+
+>{{item|titlecase}}</a>
+    </div>
+    
+    
+    
+  </div>
